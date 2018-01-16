@@ -9,10 +9,10 @@
     "url": "https://github.com/conradoqg/naivecoin.git"
   },
   "bin": {
-    "naivecoin": "bin/naivecoin.js"
+    "naivecoin": "/bin/naivecoin.js"
   },
   "scripts": {
-    "start": "node bin/naivecoin.js",
+    "start": "node /bin/naivecoin.js",
     "compose:up": "docker-compose up",
     "test": "node_modules/.bin/nyc --reporter=lcov --reporter=text --clean node node_modules/mocha/bin/_mocha -u bdd --colors test/"
   },
